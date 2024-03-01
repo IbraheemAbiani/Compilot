@@ -1,0 +1,23 @@
+fnc mult(itg a) {
+    a = a + 2
+    itg c[] = {2, 3, 4}
+    itg b = c[2]
+    itg d = 4
+    whl (d < 30) {
+        d = d+a*b
+    }
+    if(a > 3) {
+        out(a)
+    }elf(a == 3) {
+        out(d)
+    }els{
+        out(b)
+    } 
+    if (a > b) {
+        out(a)
+    } elf (a == b) {
+        out(b)
+    }
+    ret d
+}
+mult(2, 3)
